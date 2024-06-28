@@ -3,14 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 792px;
   height: 48px;
-  background-color: white;
 }
 .link1 {
   display: flex;
@@ -34,7 +33,6 @@
   color: black;
 }
 .volunter {
-  width: 324px;
   height: 56px;
   display: flex;
   gap: 16px;

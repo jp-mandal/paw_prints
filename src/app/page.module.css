@@ -1,8 +1,8 @@
 .hero {
-  display: flex;
-  margin-top: 0px;
-  margin-top: 32;
-  width: 1920px;
   height: 969px;
   background-color: #93ceaa;
+  padding-top: 32px;
+  padding-left: 250px;
+  padding-right: 250px;
+  /* width: 100%; */
 }

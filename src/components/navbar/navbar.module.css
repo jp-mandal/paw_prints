@@ -1,11 +1,10 @@
 .container {
   height: 96px;
-  width: 1420px;
-  margin: 32px 250px 32px 250px;
   border-radius: 16px;
   border: 1px solid white;
   display: flex;
   align-items: center;
   padding: 24px 24px 24px 28px;
   background-color: white;
+  justify-content: space-between;
 }

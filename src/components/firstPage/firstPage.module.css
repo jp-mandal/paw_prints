@@ -1,15 +1,63 @@
 .container {
   display: flex;
-  width: 1920px;
-  height: 969px;
-  border: 1px solid yellow;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 .arrow {
   display: flex;
   width: 52px;
   height: 120px;
   flex-direction: column;
-  margin-top: 488px;
   margin-left: 16px;
-  border: 1px solid red;
+  gap: 16px;
+  position: absolute;
+  left: 85px;
+  top: 500px;
+}
+.heroText {
+  display: flex;
+  flex-direction: column;
+  width: 816px;
+  height: 369px;
+  gap: 48px;
+  opacity: 0px;
+}
+.head1 {
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25.2px;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.head2 {
+  display: flex;
+  width: 815px;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70.2px;
+  text-align: left;
+}
+.head3 {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: left;
+}
+.aboutBtn {
+  display: flex;
+  width: 185px;
+  height: 56px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 8px;
+  gap: 8px;
+  color: white;
+  background-color: #8b4513;
+}
+
+.cat {
+  margin-top: 237px;
 }
