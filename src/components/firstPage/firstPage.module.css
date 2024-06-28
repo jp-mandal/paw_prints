@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  width: 1920px;
+  height: 969px;
+  border: 1px solid yellow;
+}
+.arrow {
+  display: flex;
+  width: 52px;
+  height: 120px;
+  flex-direction: column;
+  margin-top: 488px;
+  margin-left: 16px;
+  border: 1px solid red;
+}

@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 792px;
+  height: 48px;
+  background-color: white;
+}
+.link1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.content {
+  width: 646px;
+  height: 48px;
+  border-left: 1px solid #e9e0e0;
+  display: flex;
+  gap: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.volunter {
+  width: 324px;
+  height: 56px;
+  display: flex;
+  gap: 16px;
+}
+.vlink {
+  text-decoration: none;
+}
+.volbut {
+  width: 165px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #8b4513;
+  font: 400;
+}
+.donateBut {
+  width: 165px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #8b4513;
+  background-color: #8b4513;
+  font: 400;
+  color: white;
+}
