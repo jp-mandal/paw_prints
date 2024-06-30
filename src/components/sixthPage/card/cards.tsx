@@ -22,7 +22,6 @@ const Cards = () => {
       );
       const jsonData = await res.json();
       setData(jsonData.testimonial);
-      console.log("res", jsonData.testimonial);
       if (!res.ok) {
         throw new Error("Something went wrong");
       }
@@ -48,8 +47,6 @@ const Cards = () => {
       return;
     }
   };
-
-  console.log("current INdex", currentIndex);
 
   return (
     <div className={styles.container}>
