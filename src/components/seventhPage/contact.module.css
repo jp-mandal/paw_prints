@@ -1,0 +1,91 @@
+.container {
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: #8b4513;
+  border-radius: 8px;
+  position: relative;
+  height: 359px;
+  overflow: hidden;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.topLeftCirle {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  top: -80%;
+  left: -10%;
+  z-index: 1;
+  border-radius: 50%;
+  border: 56px solid #a8d5ba;
+}
+
+.bottomRightCirle {
+  position: absolute;
+  bottom: -90%;
+  right: -10%;
+  z-index: 1;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 56px solid #a8d5ba;
+}
+
+.dog {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  z-index: 2;
+}
+
+.cat {
+  position: absolute;
+  right: 0%;
+  top: 20%;
+  z-index: 2;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54.6px;
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: center;
+  color: #fff;
+}
+
+.button {
+  height: 56px;
+  padding: 16px 40px 16px 40px;
+  gap: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  color: #8b4513;
+  border: none;
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.actionButton {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}

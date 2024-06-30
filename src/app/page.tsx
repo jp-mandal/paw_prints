@@ -7,6 +7,7 @@ import Cause from "@/components/thirdPage/Cause";
 import Donation from "@/components/fourthPage/Donation";
 import Events from "@/components/fifthPage/Events";
 import Testimonials from "@/components/sixthPage/Testimonials";
+import Contact from "@/components/seventhPage/Contact";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
       <div className={styles.testimonials}>
         <Testimonials></Testimonials>
+      </div>
+      <div>
+        <Contact></Contact>
       </div>
     </div>
   );
