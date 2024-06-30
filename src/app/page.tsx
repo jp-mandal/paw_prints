@@ -5,6 +5,7 @@ import FirstPage from "@/components/firstPage/firstPage";
 import AboutUs from "@/components/secondPage/aboutUs";
 import Cause from "@/components/thirdPage/Cause";
 import Donation from "@/components/fourthPage/Donation";
+import Events from "@/components/fifthPage/Events";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className={styles.donation}>
         <Donation></Donation>
+      </div>
+      <div className={styles.event}>
+        <Events></Events>
       </div>
     </div>
   );

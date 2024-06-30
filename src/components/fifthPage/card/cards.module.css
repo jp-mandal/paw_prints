@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* max-height: 352px; */
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32px;
+  gap: 56px;
+  border-radius: 8px;
+  background-color: #fbefe9;
+}
+
+.contentup {
+  width: 73px;
+}
+.date {
+  width: 73px;
+  height: 73px;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72.8px;
+  text-align: left;
+  color: #0a0117;
+}
+.month {
+  width: 50px;
+  height: 29px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  color: #696f8c;
+}
+.contentBelow {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  gap: 32px;
+  justify-content: space-between;
+}
+.heading {
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 33.8px;
+  text-align: left;
+}
