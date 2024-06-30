@@ -15,3 +15,11 @@
   gap: 56px;
   background-color: #fdf7f4;
 }
+.donation {
+  height: 924px;
+  gap: 56px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
