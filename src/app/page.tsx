@@ -8,6 +8,7 @@ import Donation from "@/components/fourthPage/Donation";
 import Events from "@/components/fifthPage/Events";
 import Testimonials from "@/components/sixthPage/Testimonials";
 import Contact from "@/components/seventhPage/Contact";
+import Footer from "@/components/footer/Footer";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -32,6 +33,9 @@ export default function Home() {
       </div>
       <div>
         <Contact></Contact>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );
