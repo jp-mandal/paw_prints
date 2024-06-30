@@ -5,8 +5,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Cards = () => {
   return (
     <div className={styles.container}>
-      {data.map((help) => (
-        <div className={styles.card}>
+      {data.map((help, index) => (
+        <div className={styles.card} key={index}>
           <div className={styles.contentup}>
             <div className={styles.date}>{help.date}</div>
             <div className={styles.back}>{help.month}</div>
